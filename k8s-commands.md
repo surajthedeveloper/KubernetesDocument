@@ -5,13 +5,14 @@ Minikube commands
 ```minikube dashboard```
 
 
-
 Kubernetes Commands
 ===================
 
-```kubectl version```
+-	Kubectl => Kube controller
 
-```kubectl version --short```
+```kubectl version``` or ```kubectl version --short```
+
+```kubectl get namespaces``` or  ```kubectl get namespace``` or ```kubectl get ns```
 
 ```kubectl get events```
 
@@ -31,9 +32,7 @@ Kubernetes Commands
 
 -	Example : kubectl expose deployment microservice --type=LoadBalancer --port=8080
 
-```kubectl get service```
-
-```kubectl get svc```
+```kubectl get service``` or ```kubectl get svc```
 
 ```kubectl delete service [name of the service]```
 
@@ -41,11 +40,7 @@ Kubernetes Commands
 
 -	Example : kubectl port-forward service/microservice 7080:8080
 
-```kubectl get pods```
-
-```kubectl get po```
-
-```kubectl get pod```
+```kubectl get pods``` or ```kubectl get po``` or ```kubectl get pod```
 
 ```kubectl get pods -o wide``` = To get more details
 
@@ -53,11 +48,7 @@ Kubernetes Commands
 
 ```kubectl describe pods [pod name]```
 
-```kubectl get replicaset```
-
-```kubectl get rs```
-
-```kubectl get replicasets```
+```kubectl get replicaset``` or ```kubectl get rs``` or ```kubectl get replicasets```
 
 ```kubectl get replicaset -o wide``` = To get more details
 
@@ -101,9 +92,7 @@ Kubernetes Commands
 
 -	Example : kubectl create configmap microservice-configuration --from-literal=WELCOME_TEXT=Welcome!!!
 
-```kubectl get configmap```
-
-```kubectl get cm```
+```kubectl get configmap``` or ```kubectl get cm```
 
 ```kubectl get configmap [configmap name]```
 

@@ -29,10 +29,14 @@
     -   K8S lets you store and manage sensitive information, such as passwords, OAuth tokens and SSH Keys.
     -   You can deploy and update secrets and application configuration without rebuilding your container images, and without exposing secrets in your stack configuration.
 
-
 ## Kubernetes components
--   Kubernetes uses single responsibility principle, so each component of K8S is responsible only for one responsibility
--   
+-   [Please refer this page for Kubernetes components](components.md)
+
+## Kubernetes Architecture
+-   [Please refer this page for Kubernetes Architecture](architecture.md)
+
+## Kubernetes Objects
+-   [Please refer this page for Kubernetes Objects](k8s-objects.md)
 
 ## Kubernetes API
 -   The K8S API let's you query and manipulate the state of the objects in K8S.
@@ -77,7 +81,9 @@
 What is cron Job ?
 What is Deamon set ?
 How does communication between pods and services take place ?
-
+Storage classes ?
+Namespace ?
+PersistentVolumes ?
 
 
 
