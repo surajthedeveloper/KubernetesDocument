@@ -1,7 +1,7 @@
 # Kubernetes 
 
 -   **Kubernetes** is a **greek** word for **Helmsman** or **Captain of ship**
--   **Kubernetes** is also referred as **K8s** because **Kubernetes** has 8 letters between first and last character
+-   **Kubernetes** is also referred as **K8S** because **Kubernetes** has 8 letters between first and last character
 
 #   What is Kubernetes ?
 -   Kubernetes is a **Container management/orchestration tool**
@@ -17,7 +17,7 @@
     -   Apache Mesos Marathon
 
 #   What are Containerized applications ?
--   Container allow a developer to package up an application with all the parts it needs, such as libraries and other dependencies, and ship it all out as one package.
+-   Container allow a developer to package up an application with all the parts it needs, such as libraries and other dependencies and ship it all out as one package.
 -   Docker is a tool designed to make it easier to deploy and run applications by using containers
 
 #   Why do we need Kubernetes ?
@@ -196,7 +196,7 @@
 -   Cloud based Kubernetes Services
     -   GKE -   Google Kubernetes Engine
     -   AKS -   Azure Kubernetes Service
-    -   Amazon EKS
+    -   Amazon EKS - Amazon Elastic Kubernetes service
     
 # Kubernetes Commands
 -   To launch kubernetes cluster
