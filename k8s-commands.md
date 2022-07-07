@@ -1,14 +1,20 @@
-Minikube commands
-=================
-```minikube start```
+# Kubernetes Commands
 
-```minikube dashboard```
+## Minikube commands
+
+-	In order to start the kubernetes cluster ```minikube start```
+
+-	In order to view the kubernetes dashboard ```minikube dashboard```
+
+-	For Load-Balancer deployment support from minikube ```minikube tunnel```
+
+-	Creating secret for repository to pull the images
+```kubectl create secret docker-registry <Name for the secret> --docker-server=<docker registry> --docker-username=<username> --docker-password=<password>```
 
 
-Kubernetes Commands
-===================
+## Kubernetes Commands
 
--	Kubectl => Kube controller
+-	Kubernetes provides a command line tool is called ```kubectl``` which means the **kube-controller**
 
 ```kubectl version``` or ```kubectl version --short```
 

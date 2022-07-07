@@ -35,15 +35,6 @@
 -   The core of K8S control plain is the API Server and the HTTP API that it exposes.
 -   
 
-### Pods
--   pod is a collection of containers that can run on a host.
--   Pod is the smallest deployable unit in K8S
--   Container lives inside a pod
--   Each pod gets a unique IP address
--   Pod can contain many containers
--   containers in a pod share resources
--   with in a pod container can talk to each other using localhost
-
 ### ReplicaSet
 -   ReplicaSet ensures that a specified number of pod replica are running at any given times
 
@@ -70,6 +61,35 @@
 -   https://kubernetes.io/docs
 -   
 
+# Kubernetes 
+
+# Options to use Kubernetes
+-   Online Kubernetes Labs
+    -   https://www.katacoda.com/courses/kubernetes/playground
+    -   https://labs.play-with-k8s.com/
+    -   https://training.play-with-kubernetes.com/
+    -   https://cloudacademy.com/lab/introduction-kubernetes-playground/
+-   Kubernetes installation tools
+    -   Minikube
+    -   Kubeadm
+-   Cloud based Kubernetes Services
+    -   GKE -   Google Kubernetes Engine
+    -   AKS -   Azure Kubernetes Service
+    -   Amazon EKS - Amazon Elastic Kubernetes service
+    
+# Kubernetes Commands
+-   To launch kubernetes cluster
+    ```launch.sh```
+
+-   To get the Kubernetes cluster-info (Health status)
+    ```kubectl cluster-info```
+    
+-   To get the complete cluster info
+    ```kubectl cluster-info dump```
+    
+-   To list all the nodes
+    ```kubectl get nodes```
+    
 What is cron Job ?
 What is Deamon set ?
 How does communication between pods and services take place ?
