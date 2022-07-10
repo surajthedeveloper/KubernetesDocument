@@ -1,0 +1,29 @@
+# Volumes
+
+-   Volume is directory with some data
+-   These volumes are accisible in containers in a pod
+-   
+-   Storage requirement
+    -   Storage that doesnot depend on pod lifecycle
+    -   Storage must be available on all nodes
+    -   Storage need to survive even if cluster crashes
+-   Persistent Volume
+    -   a cluster resource
+    -   created via yaml file
+        -   kind: PersistentVolume
+    -   PersistentVolume is an abstract component which needs a physical storage like local harddrive, nfs servers outside cluster or may be cloud storage
+    -   Persistent volumes are not namespaced, but accessed to whole cluster
+-   Persistent Volume Claim
+    -   Application has to claim for the persistent volumes
+    -   PVC is also created via YAML configuration file
+        -   kind: PersistentVolumeClaim
+    -   The PVC should be configured in POD configuration inorder to claim it
+    -   
+-   Storage class 
+    -   Storage provisions persistent volumes dynamically when pvc (PersistentVolumeClaims) claims it.
+    -   Storage class also gets created with YAML file
+    -   Storage backend is defined in the SC Component via **provisioner** attribute.
+    -   Storage class is an abstraction for storage provider
+-   Volume types in pod
+    -   elastic-app
+    -   

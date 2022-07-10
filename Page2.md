@@ -42,6 +42,7 @@
 -   Users interact with the API using a tool called **kubectl**
 -   **kubectl** is a command line utility to interact with Kubernetes API
 -   **kubectl** is a GO Language binary
+-   Only entry point into k8s cluster
 
 ## Scheduler (kube-scheduler)
 -   schedules pods across multiple nodes
@@ -74,6 +75,8 @@
 -   etcd is a data store that stores cluster configuration. it is a distributed reliable,key-value store, all the objects are stored as documents and it's schema-less.
 
 ## kubelet or Node Agent
+-   kubelet interacts with both the container and the node
+-   kubelet starts the pod with a container inside
 -   Kubelet is an agent that runs on each node in the cluster. It make sure that containers are running in a pod.
 -   communicates with components from the master node
 -   In case any Pod has any issue, kubelet tries to restart the pods on the same node or a different node
@@ -81,6 +84,7 @@
 -   Kubelet takes a set of PodSpecs that are provided through various mechanisms and ensures that the containers described in those PodSpecs are running and healthy.
 
 ## kube-proxy or Networking component
+-   kube-proxy is reponsible for forwarding the request from services pod
 -   A network agent which runs on each node responsible for maintaining network configuration and rules
 -   Core networking components in Kubernetes
 -   Exposes services to the out-side world

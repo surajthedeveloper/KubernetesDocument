@@ -1,7 +1,0 @@
-apiVersion: v1
-data:
-  WELCOME_TEXT: Welcomeclear!
-kind: ConfigMap
-metadata:
-  name: microservice
-  namespace: default

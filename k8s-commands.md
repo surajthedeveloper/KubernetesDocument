@@ -50,6 +50,8 @@
 
 ```kubectl get pods -o wide``` = To get more details
 
+```kubectl exec <pod_name> -- env``` => to list the environment variables associated with pod
+
 ```kubectl explain pods```
 
 ```kubectl describe pods [pod name]```
@@ -126,3 +128,11 @@
 	=> to get the cpu and memory usage of a nodes
 
 
+```kubectl exec -it pod -- bin/bash```
+
+
+```minikube service [service name]``` to assign public ip for service[]
+
+-   You can list all the resources that are not bound to namespaces by following command ```kubectl api-resources --namespaced=false```
+
+-   You can list all the resources that are bound to namespaces by following command ```kubectl api-resources --namespaced=true```

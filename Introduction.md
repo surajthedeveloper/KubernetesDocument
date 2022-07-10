@@ -35,19 +35,7 @@
 -   The core of K8S control plain is the API Server and the HTTP API that it exposes.
 -   
 
-### ReplicaSet
--   ReplicaSet ensures that a specified number of pod replica are running at any given times
 
-## Deployment
--   Deployment enables declarative updates for Pods and ReplicaSets
--   The strategy the Deployment is using by default is something called rolling update 
-
-## Service
--   Service is a named abstraction of software service consisting of local port that the proxy listens on, and the selector that determines which pods will answer requests sent through the proxy.
-
-## ConfigMap
--   ConfigMap holds the configuration data for pods to consume.
--   
 
 ## Liveness and Readiness probes
 -   Kubernetes uses probes to check the health of a microservice
@@ -63,19 +51,6 @@
 
 # Kubernetes 
 
-# Options to use Kubernetes
--   Online Kubernetes Labs
-    -   https://www.katacoda.com/courses/kubernetes/playground
-    -   https://labs.play-with-k8s.com/
-    -   https://training.play-with-kubernetes.com/
-    -   https://cloudacademy.com/lab/introduction-kubernetes-playground/
--   Kubernetes installation tools
-    -   Minikube
-    -   Kubeadm
--   Cloud based Kubernetes Services
-    -   GKE -   Google Kubernetes Engine
-    -   AKS -   Azure Kubernetes Service
-    -   Amazon EKS - Amazon Elastic Kubernetes service
     
 # Kubernetes Commands
 -   To launch kubernetes cluster
@@ -96,6 +71,7 @@ How does communication between pods and services take place ?
 Storage classes ?
 Namespace ?
 PersistentVolumes ?
+CRDs ?
 
 
 
