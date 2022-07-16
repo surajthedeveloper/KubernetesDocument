@@ -136,3 +136,6 @@
 -   You can list all the resources that are not bound to namespaces by following command ```kubectl api-resources --namespaced=false```
 
 -   You can list all the resources that are bound to namespaces by following command ```kubectl api-resources --namespaced=true```
+
+-	```kubectl create cronjob <cron-job-name> --image=<image-name> --schedule="<cron-pattern>"```
+	=> Cron Job creation syntax
