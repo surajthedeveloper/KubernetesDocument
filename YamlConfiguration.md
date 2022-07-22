@@ -16,6 +16,7 @@
     ```
 -   **apiVersion**
     -   apiVersion indicates the specification that kubernetes should follow during configuration handling.
+    -   In-order to find the apiVersion for any component, you can use the following command. ```kubectl explain <component_name>```
 -   **kind**
     -   Holds the type of component that is being created
 -   **metadata**

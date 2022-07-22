@@ -70,4 +70,23 @@
     -   Install a tool called ```kubectx```
     -   ```kubens <namespace name>``` will set namespace provided as active one
     -   This helps to avoid passing ```-n <namespace>``` in kubectl command
-    -   
+
+
+## commands
+- ```kubectl get namespaces```
+- ```kubectl create namespace <namespace_name>```
+- ```kubectl get namespace <namespace_name>```
+- ```kubectl get namespace <namespace_name> -o yaml```
+- ```kubectl delete namespace <namespace_name>```
+
+## YAML configuration
+-   Create a file named Namespace.yaml and paste the content mentioned below. and provide the right input for ```<namespace_name>```.
+```aidl
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: <namespace_name>
+```
+- ```kubectl apply -f Namespace.yaml```
+- ```kubectl get namespaces```
+- ```kubectl delete -f Namespace.yaml```

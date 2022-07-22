@@ -4,6 +4,8 @@
 
 -	In order to start the kubernetes cluster ```minikube start```
 
+-	In order to check the status of minikube cluster ```minikube status```
+
 -	In order to view the kubernetes dashboard ```minikube dashboard```
 
 -	For Load-Balancer deployment support from minikube ```minikube tunnel```
@@ -47,6 +49,8 @@
 -	Example : kubectl port-forward service/microservice 7080:8080
 
 ```kubectl get pods``` or ```kubectl get po``` or ```kubectl get pod```
+
+```kubectl get pods -A``` to list from all namespaces
 
 ```kubectl get pods -o wide``` = To get more details
 

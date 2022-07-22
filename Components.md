@@ -1,7 +1,9 @@
 # Kubernetes Components
 
 ## Pod
--   pod is a collection of containers that can run on a host.- pod is an abstraction over container
+-   Group of whales is called Pod
+-   pod is a collection of containers that can run on a host.
+-   pod is an abstraction over container
 -   Pod is the smallest deployable unit in K8S
 -   Container lives inside a pod
 -   Each pod gets a unique IP address
