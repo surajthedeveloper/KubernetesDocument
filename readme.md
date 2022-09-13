@@ -12,19 +12,22 @@
 - [Kubernetes ReplicationController](./ReplicationController.md)
 - [Kubernetes ReplicationSet](ReplicationSet.md)
 - [Kubernetes Deployment](Deployment.md)
+- [Kubernetes Service](Service.md)
+
+- [Kubernetes Ingress](Ingress.md)  Pending
+
 - [Kubernetes Job](Job.md)
 - [Kubernetes CronJob](CronJob.md)
 - [Kubernetes DeamonSet](DeamonSet.md)
+
 - [Deploying application in Kubernetes using commandline](CmdDeployment.md)
 - [Deploying application in Kubernetes using .yaml configuration file](YamlDeployment.md)
 
 - [Kubernetes Helm](Helm.md)
 - [Kubernetes Volume](volumes.md)
-- [Kubernetes Ingress](Ingress.md)
 - [Kubernetes commands](k8s-commands.md)
 
 
 -   Rollout
 ## References
 -   https://kubernetes.io/docs
--   
